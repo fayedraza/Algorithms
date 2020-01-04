@@ -35,7 +35,7 @@ __Best Case, Average Case, and Worst Case__
 
 **Average Case:** You found the middle element
      
-     Big O Notation: O(n) even though it is O(n/2) but remember we will drop the constant which is 1/2
+     Big O Notation: O(n), even though it is O(n/2) but remember we will drop the constant which is 1/2
 
 **Worst Case:** You found the last element or element is not found
      
