@@ -27,16 +27,19 @@ if(a[x] == target)
 **Time Complexity:** The time complexity of this prorgram is O(n) because it will take a very short time to find the first
 element but then finding the next element will take longer and so on. The time it takes to find each element will increase linearly which is why the time complexity is O(n).
 
-__BEST CASE, WORST CASE, AND AVERAGE CASE__ 
+__Best Case, Average Case, and Worst Case__ 
 
 **Best Case:** You found the first element                           
-      Big O Notation: O(1)
+      
+     Big O Notation: O(1)
 
 **Average Case:** You found the middle element
-      Big O Notation: O(n) even though it is O(n/2) but remember we will drop the constant which is 1/2
+     
+     Big O Notation: O(n) even though it is O(n/2) but remember we will drop the constant which is 1/2
 
 **Worst Case:** You found the last element or element is not found
-      Big O Notation: O(n)
+     
+     Big O Notation: O(n)
    
 ###### Note: n is the length of the line
       
