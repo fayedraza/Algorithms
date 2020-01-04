@@ -1,9 +1,6 @@
 # Algorithms
 
-# Algorithms
-
 ## Searches
-
 
 ### Linear Search 
 
