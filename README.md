@@ -57,7 +57,8 @@ public static int binSearch (int[] arr, int from, int to, int target) {
 
 if (from > to) {
   
-return -1; //val not found 
+   
+   return -1; //val not found 
 
 }
   
@@ -65,7 +66,7 @@ int mid = (from + to)/2;
 
 if (arr[mid] == target){
 
-return mid;
+   return mid;
 
 }else if (target > arr[mid]){
    
