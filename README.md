@@ -51,6 +51,11 @@ Definition: Binary search (also as known as half-interval search) is used to fin
 ###### Since our middle element is 16 and we want to find 23, we can get rid of all of the elements that comes before 16 and 16 itself. Then we find the middle element between 23 and 91. Since 23 comes before 56, we can remove 56 and every element that comes after 56. With 23 and 28 left, 23 is our middle element and we have found it.
 ###### REMEMBER AN ARRAY MUST BE SORTED IN ORDER TO DO BINARY SEARCH.
 
+**Binary Search Implementation in Java**
+```java
+public int linearSearch(int a[], int target){
+
+
 **Time Complexity:** The time complexity of this prorgram is O(log n) since we are dividing the length of the line and getting rid of the half that surely does not contain the value. We keep on doing this until our line is just empty. A line with a length of 8 will cut the line at most 3 times since log 8 is 3. Remember since our base of the log is 2 so 2^3 is 8. For more information about the log n runtime click [here](https://github.com/fayedraza/Big-O#olog-n-runtime).
 
 __Best Case and Worst Case__
@@ -63,6 +68,5 @@ __Best Case and Worst Case__
 
     Big O Notation: O(n)
 
-**Examples:**
 
 
