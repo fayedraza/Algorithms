@@ -39,21 +39,27 @@ __Best Case, Average Case, and Worst Case__
 
 **Worst Case:** You found the last element or element is not found
      
-     Big O Notation: O(n)
+     Big O Notation: O(log n)
    
 ###### Note: n is the length of the line
       
 ### Binary Search 
 
-Definition: Binary search (also as known as half-interval search) is used to find a specific value within an array.
+Definition: Binary search (also as known as half-interval search) is used to find a specific value within an array by cutting half of an array.
 
 ![Binary Search](https://www.geeksforgeeks.org/wp-content/uploads/Binary-Search.png)
 
-__BEST CASE, WORST CASE, AND AVERAGE CASE__
+**Time Complexity:** The time complexity of this prorgram is O(log n) since we are dividing the length of the line and getting rid of the half that surely does not contain the value. We keep on doing this until our line is just empty. A line with a length of 8 will cut the line at most 3 times since log 8 is 3. Remember since our base of the log is 2 so 2^3 is 8. For more information about the log n runtime click [here](https://github.com/fayedraza/Big-O#olog-n-runtime).
 
-**Best Case:** O(1)
+__Best Case and Worst Case__
 
-**Worst Case:** O(log n)
+**Best Case:** We found the element by first comparison
+
+     Big O Notation: O(1)
+
+**Worst Case:** We found the element by last comparison or element was not found at all
+
+    Big O Notation: O(n)
 
 **Examples:**
 
