@@ -53,8 +53,32 @@ Definition: Binary search (also as known as half-interval search) is used to fin
 
 **Binary Search Implementation in Java**
 ```java
-public int linearSearch(int a[], int target){
+public static int binSearch (int[] arr, int from, int to, int target) {
 
+if (from > to) {
+  
+return -1; //val not found 
+
+}
+  
+int mid = (from + to)/2;
+
+if (arr[mid] == target){
+
+return mid;
+
+}else if (target > arr[mid]){
+   
+   return binSearch(arr,mid+1,to,target);
+
+}else{
+
+   return binSearch(arr,from,mid-1,target);
+
+      }
+
+}
+```
 
 **Time Complexity:** The time complexity of this prorgram is O(log n) since we are dividing the length of the line and getting rid of the half that surely does not contain the value. We keep on doing this until our line is just empty. A line with a length of 8 will cut the line at most 3 times since log 8 is 3. Remember since our base of the log is 2 so 2^3 is 8. For more information about the log n runtime click [here](https://github.com/fayedraza/Big-O#olog-n-runtime).
 
