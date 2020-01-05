@@ -53,7 +53,7 @@ Definition: Binary search (also as known as half-interval search) is used to fin
 
 **Binary Search Implementation in Java**
 ```java
-public static int binSearch (int[] arr, int from, int to, int target) {
+public static int binarySearch (int[] arr, int from, int to, int target) {
 
 if (from > to) {
   
