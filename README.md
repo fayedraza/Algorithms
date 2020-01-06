@@ -1,6 +1,6 @@
 # Algorithms
 
-## Searches
+## Searching Algorithms
 
 ### Linear Search 
 
@@ -91,6 +91,42 @@ __Best Case and Worst Case__
 **Worst Case:** We found the element by last comparison or element was not found at all
 
     Big O Notation: O(n)
+    
+## Sorting Algorithms
 
+### Selection Sort
 
+Definition: Selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum value and placing it to the beginning of the array until the array is sorted.
 
+![1*S-wdMkkaX3Gr4bQrbqu_1Q](https://user-images.githubusercontent.com/42160652/71804432-6d175d80-3031-11ea-8f6f-6416142d2ec6.jpeg)
+
+###### This is an example of selection sort where we repatedly bring the minimum element to the front until the array is sorted.
+
+**Selection Sort Implementation in Java**
+```java
+public static void sort(int[] a) { 
+        int n = a.length;
+      for (int i = 0; i < n; i++) {
+           int min = i;
+          for (int j = i+1; j < n; j++) {
+              if (a[j] < a[min]) 
+                    min = j;
+          }
+         int tmp = a[i]; 
+         a[i] = a[min]; 
+         a[min]= tmp;
+      } 
+}
+```
+
+**Time Complexity:** The time complexity of this prorgram is O(n^2) since it is a nested for loop where n is our array.
+
+__Best Case and Worst Case__
+
+**Best Case:** Best case applies to an array that is already sorted from least to greatest. We still go through the array for each element which is why the runtime is still O(n^2).
+
+    Big O Notation: O(n^2)
+
+**Worst Case:** Worst case applies to an array that goes from the greatest value to the least value. 
+
+    Big O Notation: O(n^2)
