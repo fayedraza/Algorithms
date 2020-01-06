@@ -123,7 +123,7 @@ public static void sort(int[] a) {
 
 __Best Case and Worst Case__
 
-**Best Case:** Best case applies to an array that is already sorted from the least to the greatest. We still go through the array for each element which is why the runtime is still O(n^2).
+**Best Case:** Best case applies to an array that is already sorted from the least to the greatest. We still go each element for every array run which is why the runtime is still O(n^2).
 
     Big O Notation: O(n^2)
 
