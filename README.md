@@ -119,11 +119,11 @@ public static void sort(int[] a) {
 }
 ```
 
-**Time Complexity:** The time complexity of this prorgram is O(n^2) since it is a nested for loop where n is our array.
+**Time Complexity:** The time complexity of this prorgram is O(n^2) since it is a nested for loop where the input, n, is our array.
 
 __Best Case and Worst Case__
 
-**Best Case:** Best case applies to an array that is already sorted from least to greatest. We still go through the array for each element which is why the runtime is still O(n^2).
+**Best Case:** Best case applies to an array that is already sorted from the least to the greatest. We still go through the array for each element which is why the runtime is still O(n^2).
 
     Big O Notation: O(n^2)
 
