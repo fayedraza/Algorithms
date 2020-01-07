@@ -94,6 +94,9 @@ __Best Case and Worst Case__
     
 ## Sorting Algorithms
 
+### Insertion Sort
+
+Defintion: Insertion sort is a sorting algorithm where each element is moved 
 ### Selection Sort
 
 Definition: Selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum value and placing it to the beginning of the array until the array is sorted.
