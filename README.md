@@ -105,17 +105,24 @@ Defintion: Insertion sort is a sorting algorithm that builds an element one item
 **Selection Sort Implementation in Java**
 ```java
 public static void insertion2(int[] a){ 
+
    int n = a.length;
    for (int i = 1; i < n; i++){
-       for ( int j = i; j > 0; j--){ 
+   
+       for ( int j = i; j > 0; j--){
+       
           if(a[j-1] > a[j]){
            int temp = a[j-1];  
            a[j-1] = a[j];  
            a[j] = temp;
           }else 
+          
             break;
+            
         } 
+        
     }
+    
 }
 ```
 
@@ -142,17 +149,24 @@ Definition: Selection sort is a sorting algorithm that sorts an array by repeate
 **Selection Sort Implementation in Java**
 ```java
 public static void sort(int[] a) { 
+
         int n = a.length;
       for (int i = 0; i < n; i++) {
+      
            int min = i;
           for (int j = i+1; j < n; j++) {
+          
               if (a[j] < a[min]) 
                     min = j;
+                    
           }
+          
          int tmp = a[i]; 
          a[i] = a[min]; 
          a[min]= tmp;
+         
       } 
+      
 }
 ```
 
