@@ -117,9 +117,11 @@ public static void insertion2(int[] a){
            a[j-1] = a[j];  
            a[j] = temp;
            
-          }else 
+          }else {
           
             break;
+            
+          }
             
         } 
         
