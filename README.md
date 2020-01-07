@@ -112,9 +112,11 @@ public static void insertion2(int[] a){
        for ( int j = i; j > 0; j--){
        
           if(a[j-1] > a[j]){
+          
            int temp = a[j-1];  
            a[j-1] = a[j];  
            a[j] = temp;
+           
           }else 
           
             break;
