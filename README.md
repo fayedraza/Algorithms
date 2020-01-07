@@ -96,7 +96,41 @@ __Best Case and Worst Case__
 
 ### Insertion Sort
 
-Defintion: Insertion sort is a sorting algorithm where each element is moved 
+Defintion: Insertion sort is a sorting algorithm that builds an element one item at a time.
+
+![insertionsort](https://user-images.githubusercontent.com/42160652/71878594-fb571680-30f9-11ea-963e-ee64d97c793c.png)
+
+###### Each element is moved to the sorted part.
+
+**Selection Sort Implementation in Java**
+```java
+public static void insertion2(int[] a){ 
+   int n = a.length;
+   for (int i = 1; i < n; i++){
+       for ( int j = i; j > 0; j--){ 
+          if(a[j-1] > a[j]){
+           int temp = a[j-1];  
+           a[j-1] = a[j];  
+           a[j] = temp;
+          }else 
+            break;
+        } 
+    }
+}
+```
+
+**Time Complexity:** The time complexity of this prorgram is O(n^2) since it is a nested for loop where the input, n, is our array.
+
+__Best Case and Worst Case__
+
+**Best Case:** Best case applies to an array that is already sorted from the least to the greatest. In this case, we will traverse through the array which is why the runtime is O(n).
+
+    Big O Notation: O(n)
+
+**Worst Case:** Worst case applies to an array that goes from the greatest value to the least value. 
+
+    Big O Notation: O(n^2)
+
 ### Selection Sort
 
 Definition: Selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum value and placing it to the beginning of the array until the array is sorted.
