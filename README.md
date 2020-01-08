@@ -192,7 +192,7 @@ Definition: Merge sort is a storting algorithm which consists of dividing the el
 
 ![300px-Merge_sort_algorithm_diagram svg](https://user-images.githubusercontent.com/42160652/71956601-8fd47e00-31b9-11ea-92e4-94f8697b9b32.png)
 
-###### This is an exmaple of merge sort. As you can see, we first divide the elements till they are alone. After that they will be sorted in a specific order till all of have the elements have been sorted. 
+###### This is an example of merge sort. As you can see, we first divide the elements till they are alone. After that they will be combined till all of the elements have been sorted. 
  
  **Selection Sort Implementation in Java**
 ```java
