@@ -109,7 +109,7 @@ public static void insertion2(int[] a){
    int n = a.length;
    for (int i = 1; i < n; i++){
    
-       for ( int j = i; j > 0; j--){
+       for (int j = i; j > 0; j--){
        
           if(a[j-1] > a[j]){
           
