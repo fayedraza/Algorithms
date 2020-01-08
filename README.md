@@ -235,7 +235,7 @@ public static void merge (int[] a, int lo, int mid, int hi){
 
 __Best Case and Worst Case__
 
-**Best Case:** Even if the array is sorted it will still divide and conqueror.
+**Best Case:** Even if the array is sorted, it will still divide and conqueror.
 
     Big O Notation: O(nlog n)
 
