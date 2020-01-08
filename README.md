@@ -185,3 +185,61 @@ __Best Case and Worst Case__
 **Worst Case:** Worst case applies to an array that goes from the greatest value to the least value. 
 
     Big O Notation: O(n^2)
+    
+### Merge Sort
+
+Definition: Merge sort is a storting algorithm which consists of dividing the elements and bringing back the elments to a sorted group of elements.
+
+![300px-Merge_sort_algorithm_diagram svg](https://user-images.githubusercontent.com/42160652/71956601-8fd47e00-31b9-11ea-92e4-94f8697b9b32.png)
+
+###### This is an exmaple of merge sort. As you can see, we first divide the elements till they are alone. After that they will be sorted in a specific order till all of have the elements have been sorted. 
+ 
+ **Selection Sort Implementation in Java**
+```java
+public static void sort (int[] a, int lo, int hi){
+   
+   int n = hi - lo;   
+  
+    if ( n <= 1 ) 
+        return;  
+ 
+  int middle = lo + n/2;
+    
+  sort(a, lo, middle);   
+  sort(a, middle, hi);   
+  merge(a, lo, middle, hi); 
+   
+}
+     
+public static void merge (int[] a, int lo, int mid, int hi){
+    
+     int i =  lo, j = mid, n = hi - lo;
+     int[] aux = new aux[n];   
+     
+     for (int k = 0; k < n; k++) {     
+       
+        if (i == mid) 
+            aux[k] = a[j++];   
+        else if (j == hi) 
+            aux[k] = a[i++];     
+        else if (a[j] < a[i]) 
+            aux[k] = a[j++];
+        else 
+            aux[k] = a[i++];
+        
+        }
+        
+  ```
+ 
+**Time Complexity:** The time complexity of this prorgram is O(nlog n) since n items are iterated log n times.
+
+__Best Case and Worst Case__
+
+**Best Case:** Even if the array is sorted it will still divide and conqueror.
+
+    Big O Notation: O(nlog n)
+
+**Worst Case:** It will apply to an arrary that goes from the greatest to the least which consists of divide and conqueror.
+
+    Big O Notation: O(nlog n)
+ 
