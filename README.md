@@ -98,7 +98,7 @@ Defintion: Insertion sort is a sorting algorithm that builds an element one item
 
 ![IMG_2568](https://user-images.githubusercontent.com/42160652/72004940-79aada00-321a-11ea-8424-85c1badc9cf3.jpeg)
 
-###### Each element is moved to the sorted part. The number of comparisons is determined by the number of elements the current element is compared with.  
+###### Each element is moved to the sorted part. 
 
 **Insertion Sort Implementation in Java**
 ```java
@@ -144,7 +144,7 @@ __Best Case and Worst Case__
 
 Definition: Selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum value and placing it to the beginning of the array until the array is sorted.
 
-![1*S-wdMkkaX3Gr4bQrbqu_1Q](https://user-images.githubusercontent.com/42160652/71804432-6d175d80-3031-11ea-8f6f-6416142d2ec6.jpeg)
+![IMG_2593](https://user-images.githubusercontent.com/42160652/72125205-b91a1900-3335-11ea-80df-602c05d33ac9.jpeg)
 
 ###### This is an example of selection sort where we repatedly bring the minimum element to the front until the array is sorted.
 
@@ -188,7 +188,7 @@ __Best Case and Worst Case__
 
 Definition: Merge sort is a storting algorithm which consists of dividing the elements and bringing back the elments to a sorted group of elements.
 
-![300px-Merge_sort_algorithm_diagram svg](https://user-images.githubusercontent.com/42160652/71956601-8fd47e00-31b9-11ea-92e4-94f8697b9b32.png)
+![IMG_2593](https://user-images.githubusercontent.com/42160652/72125156-8b34d480-3335-11ea-8021-470a7d7f7252.jpeg)
 
 ###### This is an example of merge sort. As you can see, we first divide the elements till they are alone. After that they will be combined till all of the elements have been sorted. 
  
