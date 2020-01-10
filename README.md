@@ -46,8 +46,7 @@ __Best Case, Average Case, and Worst Case__
 
 Definition: Binary search (also as known as half-interval search) is used to find a specific value within an array by cutting half of an array.
 
-![Binary Search](https://www.geeksforgeeks.org/wp-content/uploads/Binary-Search.png)
-###### Since our middle element is 16 and we want to find 23, we can get rid of all of the elements that comes before 16 and 16 itself. Then we find the middle element between 23 and 91. Since 23 comes before 56, we can remove 56 and every element that comes after 56. With 23 and 28 left, 23 is our middle element and we have found it.
+![IMG_2592](https://user-images.githubusercontent.com/42160652/72124651-8bcc6b80-3333-11ea-92aa-4d5050637c26.jpeg)
 ###### REMEMBER AN ARRAY MUST BE SORTED IN ORDER TO DO BINARY SEARCH.
 
 **Binary Search Implementation in Java**
