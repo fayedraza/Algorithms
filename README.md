@@ -6,7 +6,7 @@
 
 Definition: Linear search (also as known as sequential search) is the process of finding a value by searching through every element till we find the value that we want.
 
-<img width="1194" alt="View recent photos" src="https://user-images.githubusercontent.com/42160652/72124271-1e6c0b00-3332-11ea-828a-5dbebfd1a1d6.png">
+![IMG_2588](https://user-images.githubusercontent.com/42160652/72125591-1f536b80-3337-11ea-9106-afcba7d31d94.jpeg)
 
 **Linear Search Implementation in Java**
 ```java
