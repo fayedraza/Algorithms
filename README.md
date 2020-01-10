@@ -98,7 +98,7 @@ Defintion: Insertion sort is a sorting algorithm that builds an element one item
 
 ![IMG_2568](https://user-images.githubusercontent.com/42160652/72004940-79aada00-321a-11ea-8424-85c1badc9cf3.jpeg)
 
-###### Each element is moved to the sorted part.
+###### Each element is moved to the sorted part. The number of comparisons is determined by the number of elements the current element is compared with.  
 
 **Insertion Sort Implementation in Java**
 ```java
