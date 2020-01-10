@@ -188,7 +188,7 @@ __Best Case and Worst Case__
 
 Definition: Merge sort is a storting algorithm which consists of dividing the elements and bringing back the elments to a sorted group of elements.
 
-![IMG_2593](https://user-images.githubusercontent.com/42160652/72125156-8b34d480-3335-11ea-8021-470a7d7f7252.jpeg)
+![IMG_2594](https://user-images.githubusercontent.com/42160652/72125506-e0251a80-3336-11ea-81f0-1eeffd29b923.jpeg)
 
 ###### This is an example of merge sort. As you can see, we first divide the elements till they are alone. After that they will be combined till all of the elements have been sorted. 
  
