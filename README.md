@@ -144,7 +144,7 @@ __Best Case and Worst Case__
 
 Definition: Selection sort is a sorting algorithm that sorts an array by repeatedly finding the minimum value and placing it to the beginning of the array until the array is sorted.
 
-![IMG_2593](https://user-images.githubusercontent.com/42160652/72125205-b91a1900-3335-11ea-80df-602c05d33ac9.jpeg)
+![IMG_2642](https://user-images.githubusercontent.com/42160652/72944101-f4f5ab00-3d45-11ea-9fd1-61cc6c89b5c2.jpeg)
 
 ###### This is an example of selection sort where we repatedly bring the minimum element to the front until the array is sorted.
 
